@@ -35,6 +35,7 @@
  <project name="drones/arsdk-xml" path="packages/arsdk-xml"/>
 
  <!-- other packages (alphabetically sorted by name) -->
+ <project name="drones/libh264" path="packages/libh264"/>
  <project name="drones/libmp4" path="packages/libmp4"/>
  <project name="drones/libmux" path="packages/libmux"/>
  <project name="drones/libvideo" path="packages/libvideo"/>
