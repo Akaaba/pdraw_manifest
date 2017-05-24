@@ -3,46 +3,49 @@
  <!-- remote servers -->
  <remote name="github-parrot" fetch="https://github.com/Parrot-Developers/"/>
  <remote name="github-akaaba" fetch="https://github.com/Akaaba/"/>
- <default remote="github-parrot" revision="master" sync-j="4"/>
+ <remote name="gerrit" fetch="ssh://gerrit.parrot.biz" review="gerrit.parrot.biz"/>
+ <default remote="gerrit" revision="master" sync-j="4"/>
 
  <!-- build system -->
- <project name="Alchemy" path="build/alchemy"/>
- <project name="dragon_build" path="build/dragon_build">
+ <project name="build/Alchemy" path="build/alchemy"/>
+ <project name="drones/dragon_build" path="build/dragon_build">
     <linkfile src="root-build.sh" dest="build.sh"/>
     <linkfile src="root-track-branch.sh" dest="track-branch.sh"/>
  </project>
 
  <!-- external -->
- <project name="ARSDKTools" path="packages/ARSDKTools"/>
+ <project name="aftermarket/ARDroneSDK3/ARSDKTools" path="packages/ARSDKTools" revision="dev-no-json-branch" upstream="dev-no-json-branch"/>
 
  <!-- ARSDK -->
- <project name="ARSDKBuildUtils" path="packages/ARSDKBuildUtils"/>
- <project name="ARSDK3" path="packages/ARSDK3"/>
- <project name="libARCommands" path="packages/libARCommands"/>
- <project name="libARController" path="packages/libARController"/>
- <project name="libARDataTransfer" path="packages/libARDataTransfer"/>
- <project name="libARDiscovery" path="packages/libARDiscovery"/>
- <project name="libARMavlink" path="packages/libARMavlink"/>
- <project name="libARMedia" path="packages/libARMedia"/>
- <project name="libARNetwork" path="packages/libARNetwork"/>
- <project name="libARNetworkAL" path="packages/libARNetworkAL" />
- <project name="libARSAL" path="packages/libARSAL"/>
- <project name="libARStream" path="packages/libARStream" />
- <project name="libARStream2" path="packages/libARStream2" />
- <project name="libARUpdater" path="packages/libARUpdater"/>
- <project name="libARUtils" path="packages/libARUtils"/>
- <project name="arsdk-xml" path="packages/arsdk-xml"/>
+ <project name="aftermarket/ARDroneSDK3/ARSDKBuildUtils" path="packages/ARSDKBuildUtils"/>
+ <project name="aftermarket/ARDroneSDK3/ARSDK3" path="packages/ARSDK3"/>
+ <project name="aftermarket/ARDroneSDK3/libARCommands" path="packages/libARCommands"/>
+ <project name="aftermarket/ARDroneSDK3/libARController" path="packages/libARController"/>
+ <project name="aftermarket/ARDroneSDK3/libARDataTransfer" path="packages/libARDataTransfer"/>
+ <project name="aftermarket/ARDroneSDK3/libARDiscovery" path="packages/libARDiscovery" revision="dev-raspi-branch" upstream="dev-raspi-branch"/>
+ <project name="aftermarket/ARDroneSDK3/libARMavlink" path="packages/libARMavlink"/>
+ <project name="aftermarket/ARDroneSDK3/libARMedia" path="packages/libARMedia"/>
+ <project name="aftermarket/ARDroneSDK3/libARNetwork" path="packages/libARNetwork"/>
+ <project name="aftermarket/ARDroneSDK3/libARNetworkAL" path="packages/libARNetworkAL" />
+ <project name="aftermarket/ARDroneSDK3/libARSAL" path="packages/libARSAL"/>
+ <project name="aftermarket/ARDroneSDK3/libARStream" path="packages/libARStream" />
+ <project name="aftermarket/ARDroneSDK3/libARStream2" path="packages/libARStream2" />
+ <project name="aftermarket/ARDroneSDK3/libARUpdater" path="packages/libARUpdater"/>
+ <project name="aftermarket/ARDroneSDK3/libARUtils" path="packages/libARUtils"/>
+ <project name="drones/arsdk-xml" path="packages/arsdk-xml"/>
 
  <!-- other packages (alphabetically sorted by name) -->
- <project name="libpomp" path="packages/libpomp"/>
- <project name="libmp4" remote="github-akaaba" path="packages/libmp4"/>
- <project name="libmux" path="packages/libmux"/>
+ <project name="drones/libmp4" path="packages/libmp4"/>
+ <project name="drones/libmux" path="packages/libmux"/>
+ <project name="drones/libvideo" path="packages/libvideo"/>
+ <project name="drones/external/json" path="packages/json"/>
  <project name="pdraw" remote="github-akaaba" path="packages/pdraw">
   <linkfile src="config/pclinux" dest="products/pdraw/linux/config"/>
   <linkfile src="config/raspi" dest="products/pdraw/raspi/config"/>
  </project>
  <project name="pdraw_prebuilt" remote="github-akaaba" path="packages/prebuilt"/>
- <project name="ulog" path="packages/ulog"/>
+ <project name="pulsar/libpomp" path="packages/libpomp"/>
+ <project name="pulsar/ulog" path="packages/ulog"/>
  <project name="videocore4-ilclient" remote="github-akaaba" path="packages/ilclient"/>
 
 </manifest>
