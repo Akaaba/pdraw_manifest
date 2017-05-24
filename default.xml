@@ -41,6 +41,7 @@
   <linkfile src="config/pclinux" dest="products/pdraw/linux/config"/>
   <linkfile src="config/raspi" dest="products/pdraw/raspi/config"/>
  </project>
+ <project name="pdraw_prebuilt" remote="github-akaaba" path="packages/prebuilt"/>
  <project name="ulog" path="packages/ulog"/>
  <project name="videocore4-ilclient" remote="github-akaaba" path="packages/ilclient"/>
 
