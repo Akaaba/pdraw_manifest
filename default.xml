@@ -12,6 +12,7 @@
     <linkfile src="root-build.sh" dest="build.sh"/>
     <linkfile src="root-track-branch.sh" dest="track-branch.sh"/>
  </project>
+ <project name="drones/apps_tools" path="build/apps_tools"/>
 
  <!-- external -->
  <project name="aftermarket/ARDroneSDK3/ARSDKTools" path="packages/ARSDKTools"/>
