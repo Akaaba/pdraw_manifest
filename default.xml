@@ -14,7 +14,7 @@
  </project>
 
  <!-- external -->
- <project name="aftermarket/ARDroneSDK3/ARSDKTools" path="packages/ARSDKTools" revision="dev-no-json-branch" upstream="dev-no-json-branch"/>
+ <project name="aftermarket/ARDroneSDK3/ARSDKTools" path="packages/ARSDKTools"/>
 
  <!-- ARSDK -->
  <project name="aftermarket/ARDroneSDK3/ARSDKBuildUtils" path="packages/ARSDKBuildUtils"/>
@@ -22,7 +22,7 @@
  <project name="aftermarket/ARDroneSDK3/libARCommands" path="packages/libARCommands"/>
  <project name="aftermarket/ARDroneSDK3/libARController" path="packages/libARController"/>
  <project name="aftermarket/ARDroneSDK3/libARDataTransfer" path="packages/libARDataTransfer"/>
- <project name="aftermarket/ARDroneSDK3/libARDiscovery" path="packages/libARDiscovery" revision="dev-raspi-branch" upstream="dev-raspi-branch"/>
+ <project name="aftermarket/ARDroneSDK3/libARDiscovery" path="packages/libARDiscovery"/>
  <project name="aftermarket/ARDroneSDK3/libARMavlink" path="packages/libARMavlink"/>
  <project name="aftermarket/ARDroneSDK3/libARMedia" path="packages/libARMedia"/>
  <project name="aftermarket/ARDroneSDK3/libARNetwork" path="packages/libARNetwork"/>
@@ -39,7 +39,6 @@
  <project name="drones/libmp4" path="packages/libmp4"/>
  <project name="drones/libmux" path="packages/libmux"/>
  <project name="drones/libvideo" path="packages/libvideo"/>
- <project name="drones/external/json" path="packages/json"/>
  <project name="pdraw" remote="github-akaaba" path="packages/pdraw">
   <linkfile src="config/pclinux" dest="products/pdraw/linux/config"/>
   <linkfile src="config/raspi" dest="products/pdraw/raspi/config"/>
