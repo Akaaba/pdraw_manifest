@@ -40,6 +40,8 @@
  <project name="drones/libmp4" path="packages/libmp4"/>
  <project name="drones/libmux" path="packages/libmux"/>
  <project name="drones/libvideo" path="packages/libvideo"/>
+ <project name="librtsp" remote="github-akaaba" path="packages/librtsp"/>
+ <project name="libsdp" remote="github-akaaba" path="packages/libsdp"/>
  <project name="pdraw" remote="github-akaaba" path="packages/pdraw">
   <linkfile src="config/pclinux" dest="products/pdraw/linux/config"/>
   <linkfile src="config/raspi" dest="products/pdraw/raspi/config"/>
