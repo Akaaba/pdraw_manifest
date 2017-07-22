@@ -3,7 +3,7 @@
  <!-- remote servers -->
  <remote name="github-parrot" fetch="https://github.com/Parrot-Developers/"/>
  <remote name="github-akaaba" fetch="https://github.com/Akaaba/"/>
- <remote name="gerrit" fetch="ssh://gerrit.parrot.biz" review="gerrit.parrot.biz"/>
+ <remote name="gerrit" fetch="ssh://gerrit-doc.parrot.biz" review="gerrit-doc.parrot.biz"/>
  <default remote="gerrit" revision="master" sync-j="4"/>
 
  <!-- build system -->
