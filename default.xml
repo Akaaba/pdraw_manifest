@@ -40,7 +40,9 @@
  <project name="drones/libh264" path="packages/libh264"/>
  <project name="drones/libmp4" path="packages/libmp4"/>
  <project name="drones/libmux" path="packages/libmux"/>
- <project name="drones/libvideo" path="packages/libvideo"/>
+ <project name="drones/librtp" path="packages/librtp"/>
+ <project name="drones/libvideo-metadata" path="packages/libvideo-metadata"/>
+ <project name="drones/libvideo-streaming" path="packages/libvideo-streaming"/>
  <project name="librtsp" remote="github-akaaba" path="packages/librtsp"/>
  <project name="libsdp" remote="github-akaaba" path="packages/libsdp"/>
  <project name="pdraw" remote="github-akaaba" path="packages/pdraw">
