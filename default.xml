@@ -47,12 +47,10 @@
  <project name="drones/libvideo-streaming" path="packages/libvideo-streaming"/>
  <project name="drones/pdraw" path="packages/pdraw">
   <linkfile src="config/pclinux" dest="products/pdraw/linux/config"/>
-  <linkfile src="config/raspi" dest="products/pdraw/raspi/config"/>
   <linkfile src="config/android" dest="products/pdraw/android/config"/>
   <linkfile src="config/raspi" dest="products/pdraw/raspi/config"/>
   <linkfile src="config/buildcfg.py" dest="products/pdraw/buildcfg.py"/>
  </project>
- <project name="pdraw_prebuilt" remote="github-akaaba" path="packages/prebuilt"/>
  <project name="pulsar/libpomp" path="packages/libpomp"/>
  <project name="pulsar/ulog" path="packages/ulog"/>
  <project name="videocore4-ilclient" remote="github-akaaba" path="packages/ilclient"/>
