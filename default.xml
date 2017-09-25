@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  <!-- remote servers -->
- <remote name="github-parrot" fetch="https://github.com/Parrot-Developers/"/>
  <remote name="github-akaaba" fetch="https://github.com/Akaaba/"/>
  <remote name="gerrit" fetch="ssh://gerrit-doc.parrot.biz" review="gerrit-doc.parrot.biz"/>
  <default remote="gerrit" revision="master" sync-j="4"/>
@@ -46,7 +45,7 @@
  <project name="drones/libsdp" path="packages/libsdp"/>
  <project name="drones/libvideo-metadata" path="packages/libvideo-metadata"/>
  <project name="drones/libvideo-streaming" path="packages/libvideo-streaming"/>
- <project name="pdraw" remote="github-akaaba" path="packages/pdraw">
+ <project name="drones/pdraw" path="packages/pdraw">
   <linkfile src="config/pclinux" dest="products/pdraw/linux/config"/>
   <linkfile src="config/raspi" dest="products/pdraw/raspi/config"/>
   <linkfile src="config/android" dest="products/pdraw/android/config"/>
