@@ -43,6 +43,8 @@
  <project name="drones/librtp" path="packages/librtp"/>
  <project name="drones/librtsp" path="packages/librtsp"/>
  <project name="drones/libsdp" path="packages/libsdp"/>
+ <project name="drones/libvideo-buffers" path="packages/libvideo-buffers"/>
+ <project name="drones/libvideo-encode" path="packages/libvideo-encode"/>
  <project name="drones/libvideo-metadata" path="packages/libvideo-metadata"/>
  <project name="drones/libvideo-streaming" path="packages/libvideo-streaming"/>
  <project name="drones/pdraw" path="packages/pdraw">
