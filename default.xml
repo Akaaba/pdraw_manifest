@@ -36,6 +36,7 @@
 
  <!-- other packages (alphabetically sorted by name) -->
  <project name="drones/external/eigen" path="packages/eigen"/>
+ <project name="drones/external/ffmpeg" path="packages/ffmpeg" upstream="ffmpeg-3.3-branch" revision="ffmpeg-3.3-branch"/>
  <project name="drones/libfutils" path="packages/libfutils"/>
  <project name="drones/libh264" path="packages/libh264"/>
  <project name="drones/libmp4" path="packages/libmp4"/>
