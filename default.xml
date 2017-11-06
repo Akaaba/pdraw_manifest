@@ -39,6 +39,7 @@
  <project name="drones/external/ffmpeg" path="packages/ffmpeg" upstream="ffmpeg-3.3-branch" revision="ffmpeg-3.3-branch"/>
  <project name="drones/libfutils" path="packages/libfutils"/>
  <project name="drones/libh264" path="packages/libh264"/>
+ <project name="drones/libmediacodec-wrapper" path="packages/libmediacodec-wrapper"/>
  <project name="drones/libmp4" path="packages/libmp4"/>
  <project name="drones/libmux" path="packages/libmux"/>
  <project name="drones/librtp" path="packages/librtp"/>
